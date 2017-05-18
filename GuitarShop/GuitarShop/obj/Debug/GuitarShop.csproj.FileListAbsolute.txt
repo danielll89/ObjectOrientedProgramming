@@ -3,3 +3,6 @@ c:\users\daniel\documents\visual studio 2017\Projects\GuitarShop\GuitarShop\bin\
 c:\users\daniel\documents\visual studio 2017\Projects\GuitarShop\GuitarShop\bin\Debug\GuitarShop.pdb
 c:\users\daniel\documents\visual studio 2017\Projects\GuitarShop\GuitarShop\obj\Debug\GuitarShop.exe
 c:\users\daniel\documents\visual studio 2017\Projects\GuitarShop\GuitarShop\obj\Debug\GuitarShop.pdb
+E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\obj\Debug\GuitarShop.csprojResolveAssemblyReference.cache
+E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\obj\Debug\GuitarShop.exe
+E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\obj\Debug\GuitarShop.pdb

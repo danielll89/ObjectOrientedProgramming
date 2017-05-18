@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GuitarShop.Abstract;
 
-namespace GuitarShop.Model
+namespace GuitarShop.Entity
 {
     public class Mandolin : Instrument
     {

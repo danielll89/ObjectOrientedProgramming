@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GuitarShop.Abstract;
 
-namespace GuitarShop.Model
+namespace GuitarShop.Entity
 {
     public class GuitarSpec : InstrumentSpec
     {
         public int NumString { get; private set; }
 
-        public GuitarSpec(Type type, string model, Builder builder, Wood topWood, Wood backWood, int numString)
+        public GuitarSpec(Abstract.Type type, string model, Builder builder, Wood topWood, Wood backWood, int numString)
             : base(type, model, builder, topWood, backWood)
         {
             this.NumString = numString;

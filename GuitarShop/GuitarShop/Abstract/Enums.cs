@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GuitarShop.Model
+namespace GuitarShop.Abstract
 {
     public enum Type : byte { ACOUSTIC, ELECTRIC }
     public enum Builder : byte { FENDER, MARTIN, GIBSON, COLLINGS, OLSON, RYAN, PRS, ANY }

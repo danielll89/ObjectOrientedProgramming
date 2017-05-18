@@ -42,14 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Enums.cs" />
-    <Compile Include="Model\Guitar.cs" />
-    <Compile Include="Model\GuitarSpec.cs" />
-    <Compile Include="Model\Instrument.cs" />
-    <Compile Include="Model\InstrumentSpec.cs" />
+    <Compile Include="Abstract\Enums.cs" />
+    <Compile Include="Entity\Guitar.cs" />
+    <Compile Include="Entity\GuitarSpec.cs" />
+    <Compile Include="Abstract\Instrument.cs" />
+    <Compile Include="Abstract\InstrumentSpec.cs" />
     <Compile Include="Model\Inventory.cs" />
-    <Compile Include="Model\Mandolin.cs" />
-    <Compile Include="Model\MandolinSpec.cs" />
+    <Compile Include="Entity\Mandolin.cs" />
+    <Compile Include="Entity\MandolinSpec.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
