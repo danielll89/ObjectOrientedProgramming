@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GuitarShop.Abstract;
+﻿using GuitarShop.Abstract;
 
 namespace GuitarShop.Entity
 {
@@ -11,7 +6,7 @@ namespace GuitarShop.Entity
     {
         public Style Style { get; private set; }
 
-        public MandolinSpec(Abstract.Type type, string model, Builder builder, Wood topWood, Wood backWood, Style style) 
+        public MandolinSpec(Type type, string model, Builder builder, Wood topWood, Wood backWood, Style style) 
             : base(type, model, builder, topWood, backWood)
         {
             this.Style = style;

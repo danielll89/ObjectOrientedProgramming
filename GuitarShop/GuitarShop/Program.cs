@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using GuitarShop.Abstract;
+using GuitarShop.Entity;
 using GuitarShop.Model;
 
 namespace GuitarShop
@@ -14,7 +13,7 @@ namespace GuitarShop
             Inventory inventory = new Inventory();
             initializeInventory(inventory);
 
-            GuitarSpec whatEveLikes = new GuitarSpec(Model.Type.ELECTRIC, "", Builder.GIBSON, Wood.ALDER, Wood.BRAZILIAN_ROSEWOOD, 6);
+            GuitarSpec whatEveLikes = new GuitarSpec(Abstract.Type.ELECTRIC, "", Builder.GIBSON, Wood.ALDER, Wood.BRAZILIAN_ROSEWOOD, 6);
 
             List<Guitar> guitars = inventory.Search(whatEveLikes);
 
@@ -30,7 +29,7 @@ namespace GuitarShop
 
         private static void initializeInventory(Inventory inventory)
         {
-            inventory.AddInstrument("1", 23.78d, new GuitarSpec(Model.Type.ELECTRIC, "LesPaul", Builder.GIBSON,   Wood.CEDAR, Wood.HEBAN, 6));
+            inventory.AddInstrument("1", 23.78d, new GuitarSpec(Abstract.Type.ELECTRIC, "LesPaul", Builder.GIBSON,   Wood.CEDAR, Wood.HEBAN, 6));
         }
     }
 }

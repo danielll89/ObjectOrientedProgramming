@@ -6,3 +6,6 @@ c:\users\daniel\documents\visual studio 2017\Projects\GuitarShop\GuitarShop\obj\
 E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\obj\Debug\GuitarShop.csprojResolveAssemblyReference.cache
 E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\obj\Debug\GuitarShop.exe
 E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\obj\Debug\GuitarShop.pdb
+E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\bin\Debug\GuitarShop.exe.config
+E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\bin\Debug\GuitarShop.exe
+E:\Repos\ObjectedOrientedProgramming\GuitarShop\GuitarShop\bin\Debug\GuitarShop.pdb

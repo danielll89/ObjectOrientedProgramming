@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GuitarShop.Abstract
+﻿namespace GuitarShop.Abstract
 {
     public abstract class Instrument
     {
@@ -18,5 +12,5 @@ namespace GuitarShop.Abstract
             this.Price = price;
             this.Spec = spec;
         }
-    }
+    }    
 }
